@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💕 How well do you know me? 💕</h1>
+        <form id="quizForm">
+            <div class="question">
+                <label>1. What’s is special about me? 🎨</label>
+                <input type="text" id="q1" required>
+            </div>
+
+            <div class="question">
+                <label>2.three things that you like in me ? 💖</label>
+                <input type="text" id="q2" required>
+            </div>
+
+            <div class="question">
+                <label>3.ok then will you be my valentine? 🍕</label>
+                <input type="text" id="q3" required>
+            </div>
+
+            <button type="button" onclick="checkAnswers()">Submit 💌</button>
+        </form>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

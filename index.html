@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Know Me?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Do you know me? 💖</h1>
+        <button onclick="redirectToQuiz()">Yes, of course! 😍</button>
+        <button onclick="redirectToNo()">Umm... Not really 🙈</button>
+    </div>
+
+    <script>
+        function redirectToQuiz() {
+            window.location.href = "quiz.html"; // Redirects to quiz page
+        }
+        
+        function redirectToNo() {
+            window.location.href = "sorry.html"; // Redirects to "sorry" page
+        }
+    </script>
+</body>
+</html>
